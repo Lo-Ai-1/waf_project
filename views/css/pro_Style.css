@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* ✅ إعادة تعيين القيم الافتراضية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ✅ شريط التنقل */
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.navbar .logo a {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.nav-links .btn {
+    background-color: red;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* ✅ الحاوية الرئيسية */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: #f4f4f4;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+
+}
+
+/* ✅ بطاقة الملف الشخصي */
+.profile-card {
+    background: rgb(19, 135, 156);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* ✅ ترويسة الملف الشخصي */
+.profile-header h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* ✅ الصورة الشخصية */
+.profile-picture {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.profile-picture img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+}
+
+/* ✅ أزرار التحكم */
+.profile-actions {
+    margin-top: 20px;
+}
+
+.profile-actions .btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* ✅ تحسين الألوان للأزرار */
+.btn {
+    background-color: #360e72;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* ✅ زر حذف الحساب */
+.delete-btn {
+    background-color: #093c09;
+}
+
+.delete-btn:hover {
+    background-color: #c91023;
+}
+
+/* ✅ رفع الصورة */
+.upload-btn {
+    background-color: #28a745;
+}
+
+.upload-btn:hover {
+    background-color: #1e7e34;
+}
